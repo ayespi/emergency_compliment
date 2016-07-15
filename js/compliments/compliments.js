@@ -3,8 +3,6 @@
 
 (function(){
     angular
-    .module("angularComp",[])
-
-
+    .module("compliments",[])
 
 })();

@@ -4,8 +4,8 @@
 
 (function(){
     angular
-    .module("angularComp")
-    .controller("mainController", [
+    .module("compliments")
+    .controller("complimentsController", [
         ComplimentsControllerFunction
     ])
 
