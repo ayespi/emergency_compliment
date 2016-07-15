@@ -4,13 +4,16 @@
 
 (function(){
     angular
-    .module("compliments")
-    .controller("complimentsController", [
+    .module("angularComp")
+    .controller("mainController", [
         ComplimentsControllerFunction
     ])
 
     function ComplimentsControllerFunction () {
         var vm = this;
+        vm.random = data[Math.floor(Math.random()*data.length)];
+
+
     }
 
 
