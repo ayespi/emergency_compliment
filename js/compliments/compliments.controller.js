@@ -4,7 +4,7 @@
 
 (function(){
     angular
-    .module("compliments")
+    .module("emergencyComp")
     .controller("complimentsController", [
         ComplimentsControllerFunction
     ])
